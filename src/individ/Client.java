@@ -1,4 +1,4 @@
-package task;
+package individ;
 
 import eduni.simjava.Sim_entity;
 import eduni.simjava.Sim_event;
@@ -8,7 +8,7 @@ import eduni.simjava.Sim_system;
 public class Client extends Sim_entity {
 	private Sim_port in, out;
 	private double delay;
-	public static int jobs_count = 2;
+	public static int jobs_count = 1;
 	
 	Client(String name, double delay) {
 		super(name);
@@ -25,7 +25,7 @@ public class Client extends Sim_entity {
 		
 		for(int i = 0; i < jobs_count; i++) {
 			sim_schedule(out, 3.0, i);
-			// sim_trace(Sim_system.get_trc_level(), "Job " + i + " from client has been sent...");
+			sim_trace(Sim_system.get_trc_level(), "Job " + i + " from client has been sent...");
 			sim_pause(delay);
 		}
 		

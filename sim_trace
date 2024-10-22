@@ -1,7 +1,13 @@
 u: Client at 0.0: jdl-file has been sent...
-u: CE at 5.0: Workload No.0 from CE has been sent...
-u: CE at 15.0: Workload No.1 from CE has been sent...
+u: Client at 0.0: Job 0 from client has been sent...
+u: CE at 11.0: Workload No.0 from CE has been sent...
 u: WN1 at 56.0: Workload No.0 has been processed!
-u: WN2 at 66.0: Workload No.0 has been processed!
-u: CE at 68.0: The output directory generated!
-u: Client at 71.0: >> Result link received!
+u: CE at 57.0: Workload part No.1 from WN has been received
+u: WN2 at 58.0: Workload No.0 has been processed!
+u: CE at 59.0: Workload part No.2 from WN has been received
+u: WN3 at 60.0: Workload No.0 has been processed!
+u: CE at 61.0: Workload part No.3 from WN has been received
+u: WN4 at 62.0: Workload No.0 has been processed!
+u: CE at 63.0: Workload part No.4 from WN has been received
+u: CE at 64.0: The output directory generated!
+u: Client at 67.0: >> Result link received!

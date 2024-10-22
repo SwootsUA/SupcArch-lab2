@@ -6,17 +6,17 @@
 
 Version: SimJava 2.0
 
-Simulation date:         21 жовтня 2024
-Simulation start time:   20:37:04 EEST
-Simulation end time:     20:37:04 EEST
+Simulation date:         22 жовтня 2024
+Simulation start time:   11:04:41 EEST
+Simulation end time:     11:04:41 EEST
 
 ############################################################
 #            Overall simulation run information            #
 ############################################################
 
-Total simulated time:    71.0
+Total simulated time:    67.0
 Total transient time:    0.0
-Total steady state time: 71.0
+Total steady state time: 67.0
 Transient condition:     None
 Termination condition:   None
 Output analysis method:  None
